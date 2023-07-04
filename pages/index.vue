@@ -23,7 +23,7 @@
                 :alt="item.title.rendered"
               />
               <h3>{{ convert(item.title.rendered) }}</h3>
-              <p v-html="item.excerpt.rendered"></p>
+              <div v-html="item.excerpt.rendered"></div>
             </a>
           </div>
         </div>
